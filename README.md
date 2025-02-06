@@ -4,6 +4,7 @@ Entregas para Desafio Tecnico Lighthouse
 No terminal, deverá ser digitado o comando abaixo
 
 import pickle
+
 with open('predicao_apt_LH_CD_Guilherme_Silveira_Simoes.pkl', 'rb') as f:
     models = pickle.load(f)
 
