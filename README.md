@@ -18,4 +18,5 @@ Ex:
 apartamentoTeste = np.array([[40.7128, -74.0060, 355, 2, 0.38]])
 
 predicao_apt = models['Entire home/apt'].predict(apartamentoTeste)
+
 print(f"Preço previsto para 'Entire home/apt': {predicao_apt[0]}")
